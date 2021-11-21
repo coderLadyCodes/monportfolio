@@ -201,11 +201,13 @@ h1, h2, h3{
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin:8px;
+    
 }
 
-.infos h2{
+.subform h2{
     text-align: center;
+    padding:0;
+    margin:0;
 }
 
 .infos i{
