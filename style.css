@@ -208,6 +208,7 @@ h1, h2, h3{
     text-align: center;
     padding:0;
     margin:0;
+    
 }
 
 .infos i{
@@ -266,7 +267,11 @@ button{
 }
 
 button:hover{
-    color:rgb(225,0,160);
+    
     background-color: #fff;
     cursor: pointer;
+}
+
+button a:hover{
+    color:rgb(225,0,160);
 }
