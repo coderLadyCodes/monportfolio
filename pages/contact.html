@@ -25,14 +25,15 @@
                 <i class="fas fa-phone"><span>06 65 69 46 98</span></i>
                 <a href="../cvformation.pdf" download target="_blank">Télécharger mon CV</a>
             </div>
-            <form name="contact" method="POST"  data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true">
+                <input type="hidden" name="_next" value="https://samia-zaboub.netlify.app/pages/thanks.html">
                 <input type="text" name="nom" class="forme" placeholder="Nom" required>
                 <input type="text" name="prenom" class="forme" placeholder="Prénom" required>
                 <input type="email" name="email" class="forme" placeholder="email" required>
                 <textarea type="text" placeholder="Votre Email" rows="10" class="forme" name="message" required>
     
                 </textarea>
-                <button type="submit">Envoyer</button>
+               <button type="submit">Envoyer</button>
             </form>
         </div>
      
