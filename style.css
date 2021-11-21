@@ -211,11 +211,13 @@ h1, h2, h3{
 .infos i{
     padding:5px;
     color: rgb(225,0,160);
+   
 }
 
 .infos span{
 padding-left: 1rem;
 color: rgb(225,0,160);
+font-family: 'Josefin Sans', sans-serif;
 } 
 
 .infos a{
