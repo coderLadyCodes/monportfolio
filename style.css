@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;700&display=swap');
+
+body{
+    background-color: rgb(20, 20,20);
+    color:#fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+
+header{
+    display:flex;
+    justify-content: center;
+}
+
+header ul{
+    display: flex;
+    padding: 10px 10px 50px 10px;
+}
+
+ li{
+    list-style:none;
+    margin:5px 10px;
+}
+
+header a:hover{
+    color:rgb(225,0,160);
+}
+
+section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h1{
+    font-size: 14rem;
+    font-weight:1000;
+    margin:0;
+}
+
+.hero-section{
+    margin: 16vh;
+    text-align: center;
+}
+
+.hero-section span{
+    font-weight: 200;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.socials{
+    width:5rem;
+    height:20rem;
+    background-color: rgb(225,0,160);
+    border-radius: 2rem 0 0 2rem;
+    position:fixed;
+    right: 0;
+    top:25vh;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.social{
+    width:100%;
+    height:22%;
+}
+
+.social a i{
+    text-align: center;
+    font-size: 1.8rem;
+    color:rgba(253, 181, 181, 0.63)
+   }
+ 
+   .social a i:hover{
+
+    color:#fff;
+   }
+
+.wave{
+    fill:rgb(0, 0, 0);
+    width:100vw;
+    height:62vh;
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+
+
+footer{
+    display:flex;
+    width:100vw;
+    align-items: center;
+    flex-direction: column;
+    position:fixed;
+    bottom: 0;
+    left:0;
+}
+
+h2{
+    text-align: center;
+}
+.option{
+    display: flex;
+    font-weight: 80;
+}
+
+.option a{
+    margin:2rem 1rem;
+}
+
+.option a:hover{
+    color:rgb(225,0,160);
+}
+
+.option h3{
+    font-size: 1rem;
+}
+
+/**************************WORK************************/
+
+.table{
+    width:50%;
+}
+
+.table td{
+    padding:1.5rem;
+}
+
+.table a:hover{
+    color:rgb(225,0,160);
+}
+
+h1, h2, h3{
+    margin:0;
+}
+
+
+@media (max-width: 700px) {
+    .table{
+        width:80%;
+    }
+
+    .table td{
+        padding:5px;
+    }
+
+    .socials{
+        display: none;
+    }
+}
+
+.sousfooter{
+    position: relative;
+    width:100%;
+}
+
+
+
+.about{
+    width:50%;
+    text-align: center;
+    line-height: 1.9rem;
+    font-size: 1.4rem;
+}
+
+.aproposh{
+    padding:1rem;
+}
+
+.about img{
+    margin:2rem 1rem 1rem 1rem;
+    height:10rem;
+    width:10rem;
+    border-radius: 50%;
+}
+
+
+
+
+.merci{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+/*************************contact**************************/
+
+.subform{
+    width:50%;
+}
+
+
+.infos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:1rem;
+}
+
+.infos h2{
+    padding-bottom:1rem;
+    text-align: center;
+}
+
+.infos i{
+    padding:5px;
+    color: rgb(225,0,160);
+}
+
+.infos span{
+padding-left: 1rem;
+color: rgb(225,0,160);
+} 
+
+.infos a{
+    margin-top:10px;
+    padding:1rem;
+    background-color: rgb(225,0,160);
+    font-weight: 500;
+    border-radius: 2rem;
+}
+
+.infos a:hover{
+    color:rgb(225,0,160);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form .forme{
+    border:none;
+    margin:10px;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 2rem;
+    resize:none;
+}
+
+button{
+    display: block;
+    margin: auto;
+    width: 8rem;
+    height:2rem;
+    border-radius: 2rem;
+    color:#fff;
+    background-color: rgb(225,0,160);
+    border:none;
+    font-size: 1rem;
+}
+
+button:hover{
+    color:rgb(225,0,160);
+    background-color: #fff;
+    cursor: pointer;
+}
