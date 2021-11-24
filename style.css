@@ -172,11 +172,10 @@ h1, h2, h3{
     }
 
     .apropos p{
-        width:60vw;
-        height:30%;
+        width:70vw;
+        height:20%;
         font-size: 1rem;
         margin:0;
-        bottom:0;
     }
 
     .headercontact{
