@@ -188,8 +188,8 @@ h1, h2, h3{
 
 }
 
-.sousfooter{
-    position: relative;
+.footersize{
+    position: absolute;
     width:100%;
 }
 
@@ -201,7 +201,7 @@ h1, h2, h3{
     font-size: 1.4rem;
 }
 
-.aproposh{
+.apropos{
     padding:1rem;
 }
 
