@@ -185,8 +185,8 @@ h1, h2, h3{
         height:8vh;
     }
 
-    .footersize{
-        position: absolute;
+    .sousfooter{
+        position: relative;
         bottom: 0;  
     }
     
