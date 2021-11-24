@@ -154,20 +154,28 @@ h1, h2, h3{
         display: none;
     }
 
+    .headerabout ul{  
+        margin:0;
+    }
+
     .headerabout{
-        height:10vh;
+        height:3rem;
     }
 
     .apropos{
-        height:10vh;
+        height:5vh;
     }
 
-
+    .apropos h2{
+        margin:0;
+        padding: 0;
+    }
 
     .apropos p{
         width:60vw;
-        height:2vh;
+        height:30%;
         font-size: 1rem;
+        margin:0;
     }
 
     .footersize{
