@@ -153,12 +153,33 @@ h1, h2, h3{
     .socials{
         display: none;
     }
+
+    .headerabout{
+        height:8vh;
+    }
+
+    .about{
+        height:20vh;
+    }
+
+    .about p{
+        width:50vw;
+        height:5vh;
+        font-size: 1.1rem;
+    }
+
+    .footersize{
+        position:fixed;
+        bottom:0;
+    }
+
 }
 
 .sousfooter{
     position: relative;
     width:100%;
 }
+
 
 
 
