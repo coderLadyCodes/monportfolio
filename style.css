@@ -175,7 +175,7 @@ h1, h2, h3{
 
     
     .about p{
-        width:60vw;
+        width:50vw;
         height:100vh;
         font-size: 1rem;
         margin:0;
@@ -183,6 +183,11 @@ h1, h2, h3{
 
     .headercontact{
         height:8vh;
+    }
+
+    .footersize{
+        position: absolute;
+        bottom: 0;  
     }
     
 
