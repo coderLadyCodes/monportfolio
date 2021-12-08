@@ -158,6 +158,10 @@ h1, h2, h3{
         margin:0;
     }
 
+    .subform a{
+        font-size: 10px;
+    }
+
     .headerabout{
         height:3rem;
     }
